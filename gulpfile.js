@@ -9,7 +9,7 @@ const gulp = require("gulp"),
     cleanCSS = require("gulp-clean-css"),
     rename = require("gulp-rename"),
     sourcemaps = require("gulp-sourcemaps");
-sass.compiler = require("node-sass");
+sass.compiler = require("sass");
 
 function createDist() {
     return gulp
