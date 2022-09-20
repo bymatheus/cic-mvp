@@ -246,3 +246,6 @@ dist
 
 ### Laravel Automatically Generated
 auth.json
+
+### PHP CS
+.php-cs-fixer.cache
