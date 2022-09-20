@@ -249,3 +249,6 @@ auth.json
 
 ### PHP CS
 .php-cs-fixer.cache
+
+### Public Dist
+!public/dist
