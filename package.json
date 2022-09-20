@@ -23,7 +23,8 @@
         "gulp": "gulp"
     },
     "devDependencies": {
-        "bootstrap": "^5.1.3",
+        "@popperjs/core": "^2.11.6",
+        "bootstrap": "^5.2.1",
         "gulp": "^4.0.2",
         "gulp-clean": "^0.4.0",
         "gulp-clean-css": "^4.3.0",
@@ -33,7 +34,6 @@
         "gulp-sass": "^4.1.0",
         "gulp-sourcemaps": "^2.6.5",
         "gulp-uglify": "^3.0.2",
-        "node-sass": "^5.0.0",
-        "postcss": "^8.1.14"
+        "sass": "^1.54.9"
     }
 }
