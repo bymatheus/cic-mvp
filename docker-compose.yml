@@ -109,14 +109,15 @@ services:
             - network-mvp
         entrypoint: ['composer', '--ignore-platform-reqs']
 
-    npm:
+    yarn:
         platform: linux/x86_64
-        image: node:15.0.1
-        container_name: npm-mvp
+        image: node:14
+        container_name: yarm-mvp
         volumes:
             - ./:/var/www/html
         working_dir: /var/www/html
-        entrypoint: ['npm']
+        entrypoint: ['yarn']
+        init: false
 
     artisan:
         build:
