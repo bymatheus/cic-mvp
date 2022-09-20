@@ -110,8 +110,7 @@ services:
         entrypoint: ['composer', '--ignore-platform-reqs']
 
     yarn:
-        platform: linux/x86_64
-        image: node:14
+        image: node:14.15.0
         container_name: yarm-mvp
         volumes:
             - ./:/var/www/html
