@@ -47,3 +47,28 @@
     min-height: 750px;
   }
 }
+
+.about {
+  &__content {
+    min-height: 800px;
+    color: $gray-100;
+
+    background: {
+      color: $darkBackground;
+    };
+
+    padding: {
+      left: 7rem;
+      right: 13rem;
+    };
+  }
+
+  &__video {
+    .ratio {
+      width: 100%;
+      margin-left: -8rem;
+      -webkit-box-shadow: 0 0 50px 6px rgba(0,0,0,0.59);
+      box-shadow: 0 0 50px 6px rgba(0,0,0,0.59);
+    }
+  }
+}

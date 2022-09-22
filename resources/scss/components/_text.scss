@@ -2,8 +2,37 @@
   font-family: ofelia-text, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: ofelia-display, sans-serif;
 }
 
+.intro {
+  margin: {
+    bottom: 2.5rem;
+  }
 
+  small {
+    letter-spacing: .15rem;
+
+    font: {
+      weight: 500;
+    }
+  }
+}
+
+.title {
+  line-height: 1;
+
+  margin:{
+    bottom: 3rem;
+  }
+
+  font: {
+    size: 4.4rem;
+  }
+}

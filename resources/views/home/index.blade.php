@@ -13,18 +13,22 @@
     </div>
   </header>
 
-  <aside class="container-fluid">
-    <div class="row">
-      <section class="col-6">
-        <small></small>
-        <h5></h5>
-        <p></p>
-        <p></p>
+  <aside class="container-fluid about">
+    <div class="row align-items-center">
+      <section class="col-6 d-flex height-100 align-items-center about__content">
+        <div class="about__content--center">
+          <h6 class="intro">
+            <small>Lorem ipsum dolor sit amet</small>
+          </h6>
+          <h2 class="title">Nunc ultricies ante eu lorem</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies ante eu lorem sagittis, id maximus eros mollis. Ut ac nisi lacinia, congue quam ac, porttitor sapien. Sed et elit ante. Integer nec vehicula nisi, eget sollicitudin purus. Praesent auctor lorem at orci accumsan, scelerisque tempor urna faucibus. Phasellus nunc purus, bibendum eget sapien in, fermentum ornare augue.</p>
+          <p>Ut sollicitudin enim lacus. In tristique, turpis in accumsan luctus, libero lorem venenatis erat, sed semper dolor elit sit amet erat. Proin eget enim ac enim placerat facilisis sed vitae velit. Sed tempus non lectus in rutrum. Mauris fermentum odio tortor, in faucibus erat imperdiet eu.</p>
+        </div>
       </section>
 
-      <section class="col-6">
+      <section class="col-6 about__video">
         <div class="ratio ratio-16x9">
-
+          <iframe src="https://www.youtube.com/embed/qBkveO-P68g" title="CIC (Controle Inteligente de Compensações)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
     </div>
