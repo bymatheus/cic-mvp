@@ -67,8 +67,66 @@
     .ratio {
       width: 100%;
       margin-left: -8rem;
-      -webkit-box-shadow: 0 0 50px 6px rgba(0,0,0,0.59);
-      box-shadow: 0 0 50px 6px rgba(0,0,0,0.59);
+      @include shadow;
+    }
+  }
+}
+
+.services {
+  background: {
+    color: $blue;
+  };
+
+  &__content {
+    padding: {
+      top: 10rem;
+      bottom: 10rem;
+      left: 8rem;
+      right: 10rem;
+    };
+
+    background: {
+      color: $white;
+    };
+  }
+
+  &__row {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__card {
+    margin-top: 2rem;
+    width: 45%;
+    flex: 0 0 auto;
+
+    &__icon {
+      width: 3rem;
+
+      margin: {
+        bottom: .7rem;
+        right: .9rem;
+      }
+    }
+
+    &__title {
+      letter-spacing: .12rem;
+
+      font: {
+        size: 1.5rem;
+      }
+    }
+  }
+
+  &__image {
+    img {
+      width: 88%;
+
+      margin: {
+        left: -6rem;
+      }
+
+      @include shadow;
     }
   }
 }

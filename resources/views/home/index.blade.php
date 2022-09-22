@@ -34,63 +34,68 @@
     </div>
   </aside>
 
-  <article class="container-fluid">
-    <div class="row">
-      <div class="col-7">
+  <article class="container-fluid services">
+    <div class="row align-items-center">
+      <div class="col-7 services__content">
         <div class="row">
           <section class="col-12">
-            <small></small>
-            <h2></h2>
+            <h6 class="intro">
+              <small>Lorem ipsum dolor sit amet</small>
+            </h6>
+            <h4 class="title">Nunc ultricies ante eu lorem</h4>
           </section>
 
-          <section class="col-6">
-            <div class="d-flex">
-              <img src="" alt="">
-              <h6></h6>
-            </div>
+          <div class="col-12 d-flex services__row">
+            <section class="services__card">
+              <div class="d-flex align-items-end">
+                <img src="{{ asset('dist/images/service-icon.svg') }}" class="services__card__icon" alt="">
+                <h6 class="services__card__title">Lorem ipsum dolor</h6>
+              </div>
 
-            <p>
+              <p>
+                Mauris egestas massa ut sodales pellentesque. Aenean faucibus justo semper, porta eros at, porta mi. Vestibulum non fermentum elit.
+              </p>
+            </section>
 
-            </p>
-          </section>
+            <section class="services__card">
+              <div class="d-flex align-items-end">
+                <img src="{{ asset('dist/images/service-icon.svg') }}" class="services__card__icon" alt="">
+                <h6 class="services__card__title">Lorem ipsum dolor</h6>
+              </div>
 
-          <section class="col-6">
-            <div class="d-flex">
-              <img src="" alt="">
-              <h6></h6>
-            </div>
+              <p>
+                Mauris egestas massa ut sodales pellentesque. Aenean faucibus justo semper, porta eros at, porta mi. Vestibulum non fermentum elit.
+              </p>
+            </section>
 
-            <p>
+            <section class="services__card">
+              <div class="d-flex align-items-end">
+                <img src="{{ asset('dist/images/service-icon.svg') }}" class="services__card__icon" alt="">
+                <h6 class="services__card__title">Lorem ipsum dolor</h6>
+              </div>
 
-            </p>
-          </section>
+              <p>
+                Mauris egestas massa ut sodales pellentesque. Aenean faucibus justo semper, porta eros at, porta mi. Vestibulum non fermentum elit.
+              </p>
+            </section>
 
-          <section class="col-6">
-            <div class="d-flex">
-              <img src="" alt="">
-              <h6></h6>
-            </div>
+            <section class="services__card">
+              <div class="d-flex align-items-end">
+                <img src="{{ asset('dist/images/service-icon.svg') }}" class="services__card__icon" alt="">
+                <h6 class="services__card__title">Lorem ipsum dolor</h6>
+              </div>
 
-            <p>
+              <p>
+                Mauris egestas massa ut sodales pellentesque. Aenean faucibus justo semper, porta eros at, porta mi. Vestibulum non fermentum elit.
+              </p>
+            </section>
 
-            </p>
-          </section>
-
-          <section class="col-6">
-            <div class="d-flex">
-              <img src="" alt="">
-              <h6></h6>
-            </div>
-
-            <p>
-
-            </p>
-          </section>
+          </div>
         </div>
       </div>
 
-      <div class="col-5">
-        <img src="" alt="">
+      <div class="col-5 services__image">
+        <img src="{{ asset('dist/images/services.jpg') }}" alt="">
       </div>
     </div>
   </article>
