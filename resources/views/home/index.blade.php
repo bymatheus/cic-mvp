@@ -1,12 +1,14 @@
 <x-layout title="Bem vindo(a) ao CIC">
 
-  <header class="container-fluid">
+  <header class="container-fluid main">
     <div class="row">
-      <section class="col-6">
-        <h6></h6>
-        <h1></h1>
-        <p></p>
-        <a href="" title=""></a>
+      <section class="col-5 d-flex align-items-center main__text height-100">
+        <div class="main__text--center">
+          <h6 class="main__text__intro">Lorem ipsum dolor sit amet</h6>
+          <h1 class="main__text__title">Nunc ultricies ante eu lorem sagittis</h1>
+          <p class="main__text__subtitle">Ut ac nisi lacinia, congue quam ac, porttitor sapien. Sed et elit ante. Integer nec vehicula nisi, eget sollicitudin purus.</p>
+          <a href="{{ route('home.index') }}" class="btn btn--big btn--white" title="Saiba mais sobre a CIC">Saiba mais</a>
+        </div>
       </section>
     </div>
   </header>
