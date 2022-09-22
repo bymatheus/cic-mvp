@@ -1,0 +1,49 @@
+.main {
+  background: {
+    image: url("../images/bg.jpg");
+    position: right;
+    size: initial;
+    repeat: no-repeat;
+  };
+
+  &__text {
+    color: $gray-200;
+
+    background: {
+      color: $blue;
+    }
+
+    padding: {
+      left: 6rem;
+      right: 6rem;
+    };
+
+    &__intro {
+      margin-bottom: 2.5rem;
+      letter-spacing: .1rem;
+
+      font: {
+        size: 1.1rem;
+        weight: 400;
+      }
+    }
+
+    &__title {
+      font-size: 5rem;
+      line-height: 1;
+      margin-bottom: 3rem;
+    }
+
+    &__subtitle {
+      margin-bottom: 2.5rem;
+
+      font: {
+        size: 1.1rem;
+      }
+    }
+  }
+
+  .height-100 {
+    min-height: 750px;
+  }
+}

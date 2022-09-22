@@ -1,0 +1,21 @@
+.btn {
+  border-radius: 0.2rem;
+
+  &--big {
+    padding: {
+      top: 1.7rem;
+      bottom: 1.7rem;
+      left: 3.7rem;
+      right: 3.7rem;
+    }
+  }
+
+  &--white {
+    background-color: $gray-200;
+    color: $black;
+
+    &:hover {
+      background-color: $gray-300 !important;
+    }
+  }
+}
