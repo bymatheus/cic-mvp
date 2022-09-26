@@ -46,8 +46,9 @@
             width: 1px;
             style: solid;
             color: $gray-200;
-            radius: .9rem;
           };
+
+          @include border-radius;
 
           &--white {
             color: $blue;

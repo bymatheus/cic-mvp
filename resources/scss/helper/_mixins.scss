@@ -2,3 +2,9 @@
   -webkit-box-shadow: 0 0 50px 6px rgba(0,0,0,0.59);
   box-shadow: 0 0 50px 6px rgba(0,0,0,0.59);
 }
+
+@mixin border-radius {
+  border: {
+    radius: .2rem;
+  };
+}

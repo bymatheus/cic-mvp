@@ -1,5 +1,5 @@
 .btn {
-  border-radius: 0.2rem;
+  @include border-radius;
 
   &--big {
     padding: {
