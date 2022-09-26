@@ -58,7 +58,11 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link nav-cta" href="#">Quero saber mais</a>
+            <a class="nav-link nav-cta" href="#servicos">Quero saber mais</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link nav-cta nav-cta--white" href="#">Entrar</a>
           </li>
         </ul>
       </div>

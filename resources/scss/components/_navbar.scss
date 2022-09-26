@@ -23,28 +23,48 @@
   }
 
   .nav {
-    &-link {
-      color: $gray-200;
-      font-size: .9rem;
-    }
+    &-item {
+      .nav {
 
-    &-cta {
-      margin: {
-        left: .8rem;
-        right: .5rem;
+        &-link {
+          color: $gray-200;
+          font-size: .9rem;
+        }
+
+        &-cta {
+          margin: {
+            left: .8rem;
+            right: .5rem;
+          }
+
+          padding: {
+            left: 2.5rem !important;
+            right: 2.5rem !important;
+          };
+
+          border: {
+            width: 1px;
+            style: solid;
+            color: $gray-200;
+            radius: .9rem;
+          };
+
+          &--white {
+            color: $blue;
+
+            background: {
+              color: $gray-200;
+            }
+          }
+        }
+
       }
 
-      padding: {
-        left: 2.5rem !important;
-        right: 2.5rem !important;
-      };
-
-      border: {
-        width: 1px;
-        style: solid;
-        color: $gray-200;
-        radius: .9rem;
-      };
+      &:last-child {
+        .nav-link {
+          margin-left: .2rem;
+        }
+      }
     }
   }
 }
