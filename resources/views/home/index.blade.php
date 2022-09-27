@@ -100,18 +100,35 @@
     </div>
   </article>
 
-  <aside class="container-fluid">
+  <aside class="container-fluid partners">
     <div class="row">
       <div class="col-12">
-        <small></small>
-        <h5></h5>
+        <h6 class="intro">
+          <small>Lorem ipsum dolor sit amet</small>
+        </h6>
+        <h4 class="title">Nunc ultricies ante eu lorem</h4>
       </div>
 
-      <div class="col-12 d-flex">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+      <div class="col-12 d-flex partners__grid align-items-center justify-content-around">
+        <aside class="partners__images">
+          <img class="img-fluid" src="{{ asset('dist/images/cic-logo.png') }}" alt="Logotipo da CIC">
+        </aside>
+
+        <aside class="partners__images">
+          <img class="img-fluid" src="{{ asset('dist/images/cic-logo.png') }}" alt="Logotipo da CIC">
+        </aside>
+
+        <aside class="partners__images">
+          <img class="img-fluid" src="{{ asset('dist/images/cic-logo.png') }}" alt="Logotipo da CIC">
+        </aside>
+
+        <aside class="partners__images">
+          <img class="img-fluid" src="{{ asset('dist/images/cic-logo.png') }}" alt="Logotipo da CIC">
+        </aside>
+
+        <aside class="partners__images">
+          <img class="img-fluid" src="{{ asset('dist/images/cic-logo.png') }}" alt="Logotipo da CIC">
+        </aside>
       </div>
     </div>
   </aside>

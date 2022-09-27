@@ -130,3 +130,31 @@
     }
   }
 }
+
+.partners {
+  padding: {
+    top: 6rem;
+  };
+
+  .intro,
+  .title {
+    text-align: center;
+  }
+
+  &__grid {
+    padding: {
+      top: 4rem;
+      bottom: 4rem;
+    };
+
+    background: {
+      color: $darkBackground;
+    }
+  }
+
+  &__images {
+    img {
+      width: 13rem;
+    }
+  }
+}
