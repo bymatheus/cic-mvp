@@ -1,10 +1,8 @@
 <?php
 
-namespace App\Http\Controllers\Dashboard;
+namespace App\Http\Controllers\LandingPage;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use Psy\Util\Str;
 
 class LoginController extends Controller
 {
