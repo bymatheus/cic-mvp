@@ -19,5 +19,5 @@ Route::controller(HomeController::class)->group(function () {
 });
 
 Route::controller(ContactController::class)->group(function () {
-    Route::post('', 'store')->name('contact.store');
+    Route::post('/contato', 'store')->name('contact.store');
 });
