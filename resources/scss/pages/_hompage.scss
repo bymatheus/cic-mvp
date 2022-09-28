@@ -158,3 +158,65 @@
     }
   }
 }
+
+.contact {
+  .title {
+    margin: {
+      bottom: 1.5rem;
+    }
+  }
+
+  .contact {
+    &__grid {
+      padding: {
+        top: 10rem;
+        bottom: 10rem;
+        left: 4rem;
+      }
+
+      background: {
+        color: $blue;
+      };
+    }
+
+    &__content {
+      padding: {
+        right: 2rem;
+      };
+
+      p,
+      &__title {
+        margin: 0;
+      }
+
+      p {
+        font-size: .85rem;
+      }
+
+      &__card {
+        padding: {
+          top: 1.5rem;
+          bottom: 1.5rem;
+        };
+      }
+    }
+
+    &__map {
+      img {
+        width: 125%;
+        @include shadow;
+      }
+    }
+
+    &__form {
+      text-align: right;
+
+      padding: {
+        top: 10rem;
+        bottom: 10rem;
+        left: 19rem;
+        right: 5rem;
+      };
+    }
+  }
+}

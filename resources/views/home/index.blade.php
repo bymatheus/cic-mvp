@@ -133,43 +133,72 @@
     </div>
   </aside>
 
-  <footer class="container-fluid">
-    <div class="row">
-      <div class="col-5">
-        <div class="row">
-          <div class="col-4">
-            <h6></h6>
-            <p></p>
+  <footer class="container-fluid contact">
+    <div class="row align-items-center">
+      <div class="col-5 contact__grid">
+        <div class="row align-items-center">
+          <div class="col-4 contact__content">
+            <div class="contact__content__card">
+              <h6 class="contact__content__title">Telefones</h6>
+              <p>0800 000 0000</p>
+              <p>+55 11 3000-000</p>
+              <p>+55 11 3000-000</p>
+            </div>
 
-            <h6></h6>
-            <p></p>
+            <div class="contact__content__card">
+              <h6 class="contact__content__title">E-mails</h6>
+              <p>sac@cic.com.br</p>
+              <p>contato@cic.com.br</p>
+            </div>
 
-            <h6></h6>
-            <p></p>
+            <div class="contact__content__card">
+              <h6 class="contact__content__title">Endereço</h6>
+              <p>R. Nome da rua</p>
+              <p>10, Conjunto 00</p>
+              <p>Bairro, cidade - UF</p>
+              <p>CEP: 00000-040</p>
+            </div>
           </div>
 
-          <div class="col-8">
-            <img src="" alt="">
+          <div class="col-8 contact__map">
+            <img src="{{ asset('dist/images/map.png') }}" alt="Localização CIC">
           </div>
         </div>
       </div>
 
-      <div class="col-7">
+      <div class="col-7 contact__form">
+        <h6 class="intro">
+          <small>Lorem ipsum dolor sit amet</small>
+        </h6>
+        <h4 class="title">Nunc ultricies</h4>
+
         <form>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          <div class="form-floating mb-1">
+            <input type="text" class="form-control" id="name" placeholder="Nome">
+            <label for="name">Nome</label>
           </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+
+          <div class="form-floating mb-1">
+            <input type="email" class="form-control" id="email" placeholder="E-mail">
+            <label for="email">E-mail</label>
           </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
+          <div class="form-floating mb-1">
+            <input type="text" class="form-control" id="cell" placeholder="Celular">
+            <label for="cell">Celular</label>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+
+          <div class="form-floating mb-1">
+            <input type="text" class="form-control" id="subject" placeholder="Assunto">
+            <label for="subject">Assunto</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <textarea class="form-control" rows="4" placeholder="Deixe sua mensagem aqui" style="height: 80px" id="message"></textarea>
+            <label for="message">Mensagem</label>
+          </div>
+
+          <button type="submit" class="btn btn--xbig btn--blue">Enviar</button>
         </form>
       </div>
     </div>
