@@ -79,7 +79,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link nav-cta nav-cta--white" href="#">Entrar</a>
+            <a class="nav-link nav-cta nav-cta--white" href="{{ route('login.index') }}" title="Faça seu login">Entrar</a>
           </li>
         </ul>
       </div>
