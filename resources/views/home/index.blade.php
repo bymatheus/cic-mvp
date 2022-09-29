@@ -1,4 +1,4 @@
-<x-layout title="Bem vindo(a) ao CIC" key="false" dashboard="false">
+<x-layout title="Bem vindo(a) ao CIC" key="0" dashboard="0">
   <header class="container-fluid main">
     <div class="row">
       <section class="col-5 d-flex align-items-center main__text height-100">
