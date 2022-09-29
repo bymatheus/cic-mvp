@@ -19,6 +19,16 @@
     }
   }
 
+  &--fluid {
+    width: 100%;
+    text-align: center;
+
+    padding: {
+      left: unset !important;
+      right: unset !important;
+    }
+  }
+
   &--white {
     background-color: $gray-200;
     color: $black;
@@ -36,6 +46,16 @@
     &:hover {
       color: $gray-300 !important;
       background-color: darken($blue, 10%) !important;
+    }
+  }
+
+  &--dark-blue {
+    background-color: $darkBlue;
+    color: $gray-300;
+
+    &:hover {
+      color: $gray-300 !important;
+      background-color: darken($darkBlue, 10%) !important;
     }
   }
 }

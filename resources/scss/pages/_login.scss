@@ -1,0 +1,38 @@
+.login {
+  background: {
+    image: url("../images/background.svg");
+    position: center;
+    size: cover;
+    repeat: no-repeat;
+  };
+
+  &__grid {
+    background: {
+      color: $white;
+    };
+
+    padding: {
+      top: 5rem;
+      bottom: 5rem;
+      left: 3rem;
+      right: 3rem;
+    }
+
+    border: {
+      radius: 1rem;
+    }
+
+    .form {
+      &-control {
+        border: {
+          width: 3px;
+          color: $darkBlue;
+        }
+
+        &:focus {
+          box-shadow: 0 0 0 0.25rem rgb(40 62 93 / 29%) !important;
+        }
+      }
+    }
+  }
+}

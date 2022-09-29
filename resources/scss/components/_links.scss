@@ -1,0 +1,9 @@
+a {
+  @include transition();
+  text-decoration: none;
+  color: $darkBlue;
+
+  &:hover {
+    color: lighten($midBlue, 20%) !important;
+  }
+}
