@@ -132,7 +132,7 @@
     </div>
   </aside>
 
-  <footer class="container-fluid contact">
+  <footer class="container-fluid contact" id="contato">
     <div class="row align-items-center">
       <div class="col-5 contact__grid">
         <div class="row align-items-center">
