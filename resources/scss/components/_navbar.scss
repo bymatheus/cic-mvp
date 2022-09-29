@@ -69,3 +69,39 @@
     }
   }
 }
+
+.nav-dashboard {
+  width: $marginDashboard;
+  position: fixed;
+
+  padding: {
+    top: 1rem;
+    bottom: .5rem;
+  }
+
+  .nav {
+    &-link {
+      text-align: center;
+      color: $darkBlue;
+      padding: 0;
+
+      svg {
+        margin: .9rem;
+      }
+
+      &.active {
+        background-color: $darkBlue;
+        color: $gray-200;
+        border-radius: .6rem;
+        margin: {
+          bottom: .45rem;
+          top: .45rem;
+        }
+
+        &:hover {
+          color: $gray-200 !important;
+        }
+      }
+    }
+  }
+}
