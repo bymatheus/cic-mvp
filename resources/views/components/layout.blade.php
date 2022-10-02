@@ -44,7 +44,16 @@
     @includeWhen(!$key && !$dashboard, 'components.navbar.ladingpage')
     @includeWhen(!$key && $dashboard, 'components.navbar.dashboard')
 
+    @if($dashboard)
+      <main class="dashboard container-fluid">
+      @include('components.template.dashboard')
+    @endif
+
     {{ $slot }}
+
+    @if($dashboard)
+      </main>
+    @endif
 
     <script src="{{ asset('dist/js/all.min.js') }}" type="text/javascript"></script>
   </body>

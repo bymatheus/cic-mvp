@@ -1,6 +1,15 @@
 .btn {
   @include border-radius;
 
+  &--small {
+    padding: {
+      top: .5rem;
+      bottom: .5rem;
+      left: 1.5rem;
+      right: 1.5rem;
+    }
+  }
+
   &--big {
     padding: {
       top: 1.7rem;
@@ -57,5 +66,21 @@
       color: $gray-300 !important;
       background-color: darken($darkBlue, 10%) !important;
     }
+  }
+
+  &--outline {
+    color: $gray-200;
+
+    @include border;
+    @include border-radius;
+
+    &:hover {
+      color: $black !important;
+      background-color: $gray-300 !important;
+    }
+  }
+
+  &--text {
+    padding: 0;
   }
 }

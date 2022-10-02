@@ -1,0 +1,46 @@
+.header {
+  padding: 1.5rem;
+
+  &__image {
+    img {
+      width: 5.5rem;
+    }
+  }
+
+  &__infos {
+    .form {
+      &-control {
+        color: $gray-200;
+
+        background: {
+          color: transparent;
+        };
+
+        padding: {
+          top: .5rem;
+          bottom: .5rem;
+          right: 2.5rem;
+        };
+
+        @include border;
+        @include border-radius;
+
+        &::placeholder {
+          color: $gray-500;
+        }
+      }
+    }
+
+    .btn {
+      margin: {
+        left: 1rem;
+      }
+
+      &--text {
+        margin-left: -1.7rem;
+        margin-top: -4px;
+        color: $gray-200;
+      }
+    }
+  }
+}

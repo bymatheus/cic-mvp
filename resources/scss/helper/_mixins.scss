@@ -8,3 +8,11 @@
     radius: .2rem;
   };
 }
+
+@mixin border($color: $gray-200) {
+  border: {
+    width: 2px;
+    style: solid;
+    color: $color;
+  }
+}
