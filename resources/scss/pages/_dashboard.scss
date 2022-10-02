@@ -1,6 +1,7 @@
 .dashboard {
   width: calc(100% - $marginDashboard);
   min-height: 100vh;
+  padding: 2rem;
 
   border-top: {
     left-radius: 1.2rem;
