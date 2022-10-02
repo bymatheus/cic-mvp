@@ -58,6 +58,16 @@
     }
   }
 
+  &--mid-blue {
+    background-color: $midBlue;
+    color: $gray-300;
+
+    &:hover {
+      color: $gray-300 !important;
+      background-color: darken($midBlue, 10%) !important;
+    }
+  }
+
   &--dark-blue {
     background-color: $darkBlue;
     color: $gray-300;

@@ -1,0 +1,14 @@
+.dashboard {
+  .home {
+    &__cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .dash-card {
+        width: 50%;
+        padding: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+.dash-card {
+  display: flex;
+  height: 10.5rem;
+  color: $gray-200;
+  @include border-radius;
+
+  &__color {
+    width: 1.2rem;
+
+    border-top: {
+      left-radius: .7rem;
+    }
+
+    border-bottom: {
+      left-radius: .7rem;
+    }
+
+    &--green {
+      background: {
+        color: $green;
+      };
+    }
+
+    &--blue {
+      background: {
+        color: $blue;
+      };
+    }
+
+    &--yellow {
+      background: {
+        color: $yellow;
+      };
+    }
+
+    &--red {
+      background: {
+        color: $red;
+      };
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 1.2rem);
+
+    padding: {
+      top: .7rem;
+      bottom: .7rem;
+      left: 1.2rem;
+      right: 1.2rem;
+    }
+
+    border-top: {
+      right-radius: .7rem;
+    }
+
+    border-bottom: {
+      right-radius: .7rem;
+    }
+
+    background: {
+      color: $midBlue;
+    };
+
+    &__title,
+    &__value {
+      width: 100%;
+    }
+
+    &__title {
+      display: flex;
+      align-items: center!important;
+
+      h6 {
+        font: {
+          size: 1.2rem;
+          weight: 300;
+        }
+      }
+
+      .btn {
+        padding: {
+          top: 0;
+          right: 0;
+          left: 0;
+        }
+        color: $gray-200;
+      }
+    }
+
+    &__value {
+      font: {
+        size: 1.8rem;
+      }
+
+      small {
+        font: {
+          size: 1rem;
+        }
+      }
+    }
+  }
+}

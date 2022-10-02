@@ -87,11 +87,17 @@
 /*=======================================
 -> Components Dashboard
 =======================================*/
+@import "components/dashboard/dashboard";
 @import "components/dashboard/header";
+@import "components/dashboard/cards";
 
 /*=======================================
 -> Style for pages
 =======================================*/
 @import "pages/hompage";
 @import "pages/login";
-@import "pages/dashboard";
+
+/*=======================================
+-> Style for pages -> Dashboard
+=======================================*/
+@import "pages/dashboard/home";
