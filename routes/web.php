@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Dashboard\ComplianceController;
 use App\Http\Controllers\Dashboard\LogoutController;
 use App\Http\Controllers\LandingPage\ContactController;
 use App\Http\Controllers\LandingPage\HomeController;
@@ -37,6 +38,10 @@ Route::controller(LoginController::class)->group(function () {
 */
 Route::controller(HomeDashboardController::class)->group(function () {
     Route::get('/dashboard', 'index')->name('dashboard.home.index');
+});
+
+Route::controller(ComplianceController::class)->group(function () {
+    Route::get('/dashboard/compliance', 'index')->name('dashboard.compliance.index');
 });
 
 Route::controller(LogoutController::class)->group(function () {
