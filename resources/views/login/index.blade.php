@@ -7,7 +7,8 @@
             Login
           </h1>
 
-          <form>
+          <form method="POST" action="{{ route('login.store') }}">
+            @csrf
             <div class="form-floating mb-3">
               <input type="email" class="form-control" id="floatingEmail" placeholder="nome@exemplo.com.br">
               <label for="floatingEmail">E-mail</label>
