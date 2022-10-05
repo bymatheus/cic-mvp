@@ -44,5 +44,13 @@
         color: $gray-200;
       }
     }
+
+    .dropdown {
+      .btn {
+        &:after {
+          display: none;
+        }
+      }
+    }
   }
 }

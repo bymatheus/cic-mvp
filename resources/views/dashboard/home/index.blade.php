@@ -1,10 +1,6 @@
 <x-layout title="Bem vindo(a) ao CIC" key="0" dashboard="1">
   <div class="row home">
-    <div class="col-12 mb-2 d-flex">
-      <button type="button" class="ms-auto btn btn--mid-blue btn--small">
-        + filtros
-      </button>
-    </div>
+    @include('components.filter.filter')
 
     <div class="col-6 home__cards">
 
