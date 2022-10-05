@@ -1,0 +1,58 @@
+.offcanvas {
+  .notification {
+    padding: 0 1rem;
+
+    margin: {
+      bottom: 1rem;
+    };
+
+    border-bottom: {
+      width: 1px;
+      style: solid;
+      color: #344b6f;
+    };
+
+    a {
+      p {
+        color: $gray-300;
+        opacity: .8;
+      }
+
+      &:hover {
+        p {
+          color: $gray-200;
+          opacity: 1;
+        }
+      }
+    }
+
+    &__title {
+      width: 80%;
+
+      p {
+        margin-bottom: .2rem;
+        font: {
+          size: .8rem;
+          weight: 600;
+        }
+      }
+    }
+
+    &__time {
+      width: 20%;
+
+      p {
+        margin-bottom: .2rem;
+        font-size: .8rem;
+        text-align: right;
+      }
+    }
+
+    &__preview {
+      p {
+        margin-top: .2rem;
+        font-size: .8rem;
+      }
+    }
+  }
+}

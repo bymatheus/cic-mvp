@@ -47,6 +47,7 @@
     @if($dashboard)
       <main class="dashboard container-fluid">
       @include('components.template.dashboard')
+      @include('components.offcanvas.notification')
     @endif
 
     {{ $slot }}
