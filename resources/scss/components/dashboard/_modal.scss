@@ -1,0 +1,57 @@
+.modal {
+  &-header {
+    border: 0;
+
+    padding: {
+      left: 0;
+      right: 0;
+    };
+  }
+
+  &-content {
+    border: 0;
+
+    @include border-radius;
+
+    background: {
+      color: transparent;
+    };
+  }
+
+  &-body {
+    padding: 0;
+
+    background: {
+      color: $darkBlue;
+    }
+  }
+
+  &__image {
+    height: 24rem;
+
+    background: {
+      image: url("../images/modal.jpg");
+      position: center bottom;
+      size: cover;
+    };
+  }
+
+  &__content {
+    padding: {
+      left: 2rem;
+      right: 2rem;
+    };
+
+    &__title {
+      color: $gray-200;
+
+      font: {
+        size: 1.5rem;
+      }
+
+      margin: {
+        bottom: 1.5rem;
+      }
+    }
+  }
+}

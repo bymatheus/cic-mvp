@@ -47,13 +47,15 @@
     @if($dashboard)
       <main class="dashboard container-fluid">
       @include('components.template.dashboard')
-      @include('components.offcanvas.notification')
     @endif
 
     {{ $slot }}
 
     @if($dashboard)
       </main>
+
+      @include('components.offcanvas.notification')
+      @include('components.modal.logout')
     @endif
 
     <script src="{{ asset('dist/js/all.min.js') }}" type="text/javascript"></script>
