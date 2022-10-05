@@ -1,4 +1,6 @@
 .dashboard {
+  @include transition();
+
   width: calc(100% - $marginDashboard);
   min-height: 100vh;
   padding: 2rem 3.2rem;
@@ -17,5 +19,15 @@
 
   margin: {
     left: $marginDashboard;
+  }
+
+  &.nav-collapsed {
+    @include transition();
+
+    width: calc(100% - $marginDashboardCollapsed);
+
+    margin: {
+      left: $marginDashboardCollapsed;
+    }
   }
 }

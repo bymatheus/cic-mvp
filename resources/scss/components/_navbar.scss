@@ -71,35 +71,74 @@
 }
 
 .nav-dashboard {
-  width: $marginDashboard;
+  @include transition();
+
   position: fixed;
+  width: $marginDashboard;
 
   padding: {
     top: 1rem;
     bottom: .5rem;
   }
 
-  .nav {
-    &-link {
-      text-align: center;
-      color: $darkBlue;
-      padding: 0;
+  &.nav-collapsed {
+    width: $marginDashboardCollapsed;
 
-      svg {
-        margin: .9rem;
+    .nav {
+      &-link {
+        p {
+          display: block;
+          margin: 0;
+          color: $darkBlue;
+        }
+      }
+    }
+  }
+
+  .nav {
+    &-button {
+      background: none;
+      border: 0;
+    }
+
+    &-link {
+      padding: 0;
+      display: flex;
+      align-items: center;
+
+      p {
+        display: none;
+        margin: 0;
+        color: $darkBlue;
       }
 
-      &.active {
-        background-color: $darkBlue;
-        color: $gray-200;
-        border-radius: .6rem;
+      &__icon {
+        text-align: center;
+        color: $darkBlue;
+        padding: 0;
+        width: fit-content;
+
         margin: {
-          bottom: .45rem;
-          top: .45rem;
+          left: .85rem;
+          right: .85rem;
+        };
+
+        svg {
+          margin: .9rem;
         }
 
-        &:hover {
-          color: $gray-200 !important;
+        &.active {
+          background-color: $darkBlue;
+          color: $gray-200;
+          border-radius: .6rem;
+          margin: {
+            bottom: .45rem;
+            top: .45rem;
+          }
+
+          &:hover {
+            color: $gray-200 !important;
+          }
         }
       }
     }
