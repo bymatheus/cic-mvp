@@ -1,6 +1,8 @@
 <aside class="row align-items-center header">
   <div class="col-6 header__image">
-    <img src="{{ asset('dist/images/cic-logo.svg') }}" alt="">
+    <a href="{{ route('home.index') }}">
+      <img src="{{ asset('dist/images/cic-logo.svg') }}" alt="">
+    </a>
   </div>
 
   <div class="col-6 header__infos d-flex align-items-center justify-content-end">
