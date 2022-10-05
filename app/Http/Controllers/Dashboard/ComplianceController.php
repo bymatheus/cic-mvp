@@ -3,12 +3,15 @@
 namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
 
 class ComplianceController extends Controller
 {
-    public function index()
+    public function index(): Factory | View | Application
     {
-        //TODO
+        return view('dashboard.compliance.index');
     }
 }
