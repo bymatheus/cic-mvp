@@ -14,10 +14,10 @@
 
               <div class="d-flex">
                 <div class="w-50">
-                  <a href="" data-bs-dismiss="modal" class="btn btn--big btn--white btn--fluid me-1">Não</a>
+                  <a href="" data-bs-dismiss="modal" class="btn btn--big btn--white btn--fluid me-2">Não</a>
                 </div>
                 <div class="w-50">
-                  <a href="{{ route('home.index') }}" class="btn btn--big btn--mid-blue btn--fluid ms-1">Sim</a>
+                  <a href="{{ route('home.index') }}" class="btn btn--big btn--mid-blue btn--fluid ms-2">Sim</a>
                 </div>
               </div>
             </div>
